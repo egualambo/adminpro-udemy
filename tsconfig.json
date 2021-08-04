@@ -19,11 +19,13 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "noImplicitAny": true,
+    "suppressImplicitAnyIndexErrors": true
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,
-    "strictInjectionParameters": true,
+    "strictInjectionParameters": false,
     "strictInputAccessModifiers": true,
     "strictTemplates": true
   }
